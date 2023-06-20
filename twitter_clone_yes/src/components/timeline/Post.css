@@ -1,0 +1,50 @@
+.post{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.post-body {
+  flex: 1;
+  padding: 10px;
+}
+
+.post--body > img {
+  border-radius: 20px;
+  width: 100%; /* 横をMAX広げる */
+  height: 40%;
+}
+
+.post--footer {
+  display: flex;
+  justify-content: space-between; /* 要素を等間隔で広げる */
+  margin-top: 10px;
+
+}
+
+.post--headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+
+}
+
+.post--headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post--badge {
+  font-size: 14px !important;
+  color: var(--twitter-color) !important; /* ※色が変わらないので確認する */
+}
+
+.post--headerSpecial {
+  font-weight: 700;
+  font-size: 12px;
+  color: gray;
+}
+
+.post--avatar {
+  padding: 15px;
+}
+

@@ -1,0 +1,49 @@
+.timeline{
+  margin: 20px;
+  align-items: center;
+  cursor: pointer;
+  overflow-y: scroll; /* ※確認※タイトル部分も一緒にスクロールされてしまう */
+  border-right: 1px solid var(--twitter-background);
+  border-left: 1px solid var(--twitter-background);
+}
+
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline--header {
+  display: flex;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.timeline--TwitterIcon{
+  color: var(--twitter-coler);
+  font-size: 30px !important;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 6px;
+  margin-right: auto !important;
+}
+
+.timeline--title-logo{
+  font-size: 1px;
+  height: 35px;
+  width: 90px;
+  padding-top: 1px;
+  padding-bottom: 45px;
+  margin: auto;
+  display: block;
+}
+
+.timeline--menuIcon{
+  font-size: 30px !important;
+  /* padding-left: 100px; */
+  padding-bottom: 40px;
+  padding-top: 6px;
+  /* padding-right: 10px; */
+  margin-left: auto !important;/* オートにすることで自動で右に寄せる */
+}
+
+
+
+

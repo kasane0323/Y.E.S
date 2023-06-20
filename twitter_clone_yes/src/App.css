@@ -1,0 +1,14 @@
+body {
+  --twitter-coler: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+/* 全体で使用する色を登録しておく */
+
+
+.app{
+  display: flex;
+  height: 100vh;
+  max-width: 500px; /* 最大幅を1000pxに制限 */
+  margin:0 auto; /* 要素を中央寄せ */
+  padding:0 10px;
+}

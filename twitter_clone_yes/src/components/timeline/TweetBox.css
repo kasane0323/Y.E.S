@@ -1,0 +1,38 @@
+.tweetBox{
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background) !important;
+  padding-right: 10px;
+}
+
+.tweetBox > form{
+  display: flex; /* 要素を横並びにする */
+  flex-direction: column; /* row(列)からcolumn(縦)並びに変更 */
+}
+
+.tweetBox--input{
+  padding: 20px;
+  display: flex; /* プロフィールアイコンとツイート画面を横並びにする */
+}
+
+.tweetBox--input > input{
+  flex: 1; /* 要素を最大限広げる */
+  font-size: 20px;
+  margin-left: 20px;
+  border: none;
+}
+
+.tweetBox--imageInput{
+  border: none;
+  padding: 20px;
+}
+
+.tweetBox--tweetButton{
+  background-color: var(--twitter-coler) !important;
+  color: white !important;
+  font-weight: 900 !important;
+  width: 130px !important;
+  height: 40px !important;
+  border-radius: 30px !important;/* 角をまるくする */
+  margin-top: 20px !important;
+  margin-left: auto !important;/* オートにすることで自動で右に寄せる */
+}
