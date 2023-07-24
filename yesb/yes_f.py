@@ -47,7 +47,8 @@ def upload_image_to_drive(credentials, file_name, folder_id=None):
 def main():
     # 画像URLとGoogleドライブへのアップロード先フォルダIDを設定
     # YESに入力された画像URL
-    image_url = 'https://drive.google.com/uc?id=11X5Imzd0Eybg4du6_zln1gqCzGHvPZwh'  # tweetImage
+    image_url = image_url
+    #'https://drive.google.com/uc?id=11X5Imzd0Eybg4du6_zln1gqCzGHvPZwh'  # tweetImage
     folder_id = '1U0JA4mLIOngGoeFJMLZ6bBTzI1vqHIEW'  # Googleドライブ上のアップロード先フォルダのIDを指定
 
     # 画像をダウンロードして一時的なファイルに保存
@@ -85,7 +86,7 @@ db = firestore.client()
 
 # ドキュメントを設定
 data = {"beforeUrl": imageb_url, "beforeId": imageb_id, "afterUrl": "",
-        "afterId": "", "text": tweetMessage, "twitterUrl": ""}
+        "afterId": "", "text": messege, "twitterUrl": ""}
 # "time": datetime.datetime.now(tz=datetime.timezone.utc)
 
 data_ref = db.collection("yes_twitter").document(
@@ -115,7 +116,7 @@ for doc in docs:
 # 情報のみプリント
 
 # TwitterURLをDBに追加
-data_ref = db.collection("yes_twitter").document(
-    "00000001").collection("image").document("newid")
-data_twitter = data_ref.update({"twitterUrl": ""})  # URLの変数追加
-data_twitter
+#data_ref = db.collection("yes_twitter").document(
+#    "00000001").collection("image").document("newid")
+#data_twitter = data_ref.update({"twitterUrl": ""})  # URLの変数追加
+#data_twitter
