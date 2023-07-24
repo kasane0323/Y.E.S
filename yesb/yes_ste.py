@@ -27,7 +27,7 @@ def main():
     # 画像URLとGoogleドライブへのアップロード先フォルダIDを設定
     # tweet用ステガノグラフィ付き画像URL
     image_url = 'https://drive.google.com/uc?id=11X5Imzd0Eybg4du6_zln1gqCzGHvPZwh'
-    folder_id = '1U0JA4mLIOngGoeFJMLZ6bBTzI1vqHIEW'  # Googleドライブ上のアップロード先フォルダのIDを指定
+    folder_id = '13ay4j-PUwMjMgj0km3VKd1CE-1W8M4i1'  # Googleドライブ上のアップロード先フォルダのIDを指定
 
     # 画像をダウンロードして一時的なファイルに保存
     file_name = 'temp_image.jpg'
